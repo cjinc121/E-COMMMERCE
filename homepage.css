@@ -9,6 +9,10 @@
   padding: 1rem 0;
   width: 100%;
 }
+.category-card:hover {
+  border-bottom: 2px solid black;
+  transition: 0.1s all ease-in-out;
+}
 .banner-container {
   display: flex;
   align-items: center;
