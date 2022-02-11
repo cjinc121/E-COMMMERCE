@@ -7,6 +7,9 @@
   align-items: center;
   gap: 0.5rem;
 }
+.badge-no-right {
+  background-color: var(--error-color);
+}
 .button {
   padding: 0.5rem 1rem;
   border-radius: 0;
@@ -15,6 +18,10 @@
 .black-button {
   background-color: var(--black-color);
   color: var(--white-color);
+}
+.outline-button.black-button {
+  background-color: var(--white-color);
+  color: var(--black-color);
 }
 .category-card {
   display: flex;
