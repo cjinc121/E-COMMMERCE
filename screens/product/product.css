@@ -41,12 +41,11 @@
   justify-content: space-between;
   align-items: center;
 }
-.radio input {
-  margin-right: 0.3rem;
-}
+.radio input,
 .checkbox input {
-  margin-right: 0.3rem;
+  margin-right: 4px;
 }
+
 .product-content {
   width: 75%;
   padding: 2rem;
