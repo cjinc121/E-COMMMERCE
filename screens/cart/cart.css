@@ -1,0 +1,62 @@
+@import url("https://fluid-ui-component.vercel.app/docs/docs.css");
+@import "../../style.css";
+.cart-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4rem;
+  margin: 1rem;
+}
+.card-container-vertical {
+  width: 25rem;
+  border-radius: 0;
+}
+.card-container-vertical .card-image {
+  width: 50%;
+  object-fit: contain;
+}
+.card-verticle-title {
+  margin-left: 1rem;
+  width: 50%;
+}
+.title {
+  margin-left: 1rem;
+}
+.cart-minus-plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.cart-container-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 2rem;
+}
+.floating-button i {
+  padding: 9px;
+}
+.bill-cart {
+  padding: 2rem;
+  box-shadow: 1px 1px 4px var(--shadow-color);
+}
+.bill-cart-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+.bill-cart-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.bold-row {
+  border-bottom: 1px solid var(--black-color);
+  font-weight: bolder;
+}
+.border-top {
+  border-top: 1px solid var(--black-color);
+}
