@@ -1,3 +1,13 @@
+.page-header {
+  background-color: var(--white-color);
+  height: 10rem;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .brand-name {
   letter-spacing: 0.2rem;
 }
